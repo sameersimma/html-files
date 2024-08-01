@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>TS BUS TRANSPORT CORPORATION</h1>
+        <h2>BUS PASS APPLICATION</h2>
+        <form action="busapplicationsuccess.html">
+           <fieldset>
+              <legend>applicant details</legend>
+                    <label for="name">Name</label>
+                    <input type="text" maxlength="20" id="name" required placeholder="name">
+                    <label for="dob">Date of Birth</label>
+                    <input type="text" maxlength="20" id="dob" required placeholder="DD/MM/YYYY"><br>
+                    <label for="M NUM">mobile number</label>
+                    <input type="text" maxlength="10" id="M Num" required placeholder="Mob No">
+                    <label for="Father name">Father name</label>
+                    <input type="text" maxlength="20" id="Father name" required placeholder="Father name">
+                <br>
+                <label for="adhar">Adhar No :</label>
+                <input type="number" id="adhar" placeholder="adhar no">
+                <label for="email">Email ID</label>
+                <input type="email" id="email" placeholder="email ID">
+            </fieldset>
+            <fieldset>
+                <legend>Residental Address</legend>
+                <dl>
+                    <dt><label for="rad">Residental Address</label></dt>
+                    <dd><input type="text" id="rad"></dd>
+                    <dt><label for="pin">Pincode</label></dt>
+                    <dd><input type="number" id="pin"></dd>
+                </dl>
+            </fieldset>
+            <fieldset>
+                <legend>Pass Type Details</legend>
+                <label for="Pass Type Details"></label>
+                <dt><label for="city">City</label></dt>
+                <dd>
+                    <select name="city" id="city">
+
+
+                        <option value="hyderabad">Hyderabad</option>
+                        <option value="warangal">Warangal</option>
+                    </select>
+                </dd>
+                <dt><label for="type">Pass Type</label></dt>
+                <dd>
+                    <select name="type" id="type">
+                        <option value="greater pass">Greater Pass</option>
+                        <option value="general ordinary route pass">General Ordinary route Pass</option>
+                    </select>
+                </dd>
+            </fieldset>
+            <input type="submit" value="submit">
+        </form>
+    </center>
+</body>
+</html>
